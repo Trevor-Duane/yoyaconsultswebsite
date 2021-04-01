@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500&family=Titillium+Web:wght@200;300&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Josefin+Slab:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+h1 {
+	font-size: 46px;
+}
+h2 {
+	font-size: 44px;
+}
+h3 {
+	font-size: 32px;
+}
+h4 {
+	font-size: 24px;
+}
+h5 {
+	font-size: 18px;
+	line-height: 30px;
+    color: #474748;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+}
+h6 {
+	font-size: 20px;
+}
+.section {
+	color: #5c6166;
+}
+.hr.invisible_hr {
+    height: 0;
+    padding: 0;
+}
+.hr.big_size_hr {
+    margin: 30px 0;
+}
+.hr {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 24px;
+    margin: 20px 0;
+    overflow: hidden;
+    padding: 2px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.highlight_secondary {
+    color: #dc2127;
+    font-weight: bold;
+    
+}
+.name-link{
+    text-decoration: none;
+}
+.name-link:hover{
+    text-decoration: none;
+}
+.team-role {
+    /* color: #A4A7AA; */
+    color: #dc2127;
+    font-size: 12px;
+}
+.team-section{
+    background-color: #f0f0f0;
+    width: 100%;
+    font-family: 'Vollkorn', serif;
+}
+.team{
+  border: none;
+  /* padding: 10px 40px; */
+  /* padding: 10px 5px; */
+  border-radius: 20px;
+  color: #6D7587;
+  background-color: #f0f0f0;
+  /*box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.3), 
+              -2px -2px 4px 2px rgba(255, 255, 255, 1), 
+              inset -14px -14px 20px -10px rgba(0, 0, 0, 0.1),
+              inset 14px 14px 20px -10px rgba(255, 255, 255, 0.5) !important;  */
+  box-shadow: 7px 7px 15px rgba(55, 84, 170, .15),
+              -7px -7px 20px rgba(255, 255, 255, 1),
+              inset 0px 0px 4px rgba(255, 255, 255, .2),
+              inset 7px 7px 15px rgba(55, 84, 170, 0),
+              inset -7px -7px 20px rgba(255, 255, 255, 0),
+              0px 0px 4px rgba(255, 255, 255, 0) !important;
+  transition: box-shadow .25s ease !important;
+}
+.row{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+}

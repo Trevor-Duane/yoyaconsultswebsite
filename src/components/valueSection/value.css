@@ -1,0 +1,39 @@
+.values{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.value-text{
+    /* font-size: 12px; */
+    text-align: left;
+    line-height: 12px;
+}
+.value-image{ 
+    background-image: url('../../assets/images/team1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.shadow{
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #dc2127;
+    border-radius: 4px;
+    /* padding: 0 15px; */
+}
+
+.shadow:hover {
+    box-shadow: 1px 1px #eaa953, 2px 2px #eac253, 3px 3px #f4a626;
+    /* transform: translateX(-3px); */
+    border: 3px solid #474748;
+    transform: scale(1.1);
+    }
+h4{
+    font-weight: bold;
+    color: #474750;
+}
+h3{
+    font-weight: bold;
+}
+p{
+    font-size: 10px;
+}

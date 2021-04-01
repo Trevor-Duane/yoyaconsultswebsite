@@ -1,0 +1,10 @@
+.clients{
+    /* background-color: #f0f0f0; */
+    margin-top: 10px;
+    border-bottom: 5px solid #f0f0f0;
+    height: 50vh;
+    padding: 5px;
+}
+.clients-wrapper{
+    margin-top: 15px;
+}

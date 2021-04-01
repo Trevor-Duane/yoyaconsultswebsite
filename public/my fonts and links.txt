@@ -1,0 +1,10 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500&family=Titillium+Web:wght@200;300&family=Vollkorn&display=swap" rel="stylesheet">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500&family=Titillium+Web:wght@200;300&family=Vollkorn&display=swap');
+</style>
+
+font-family: 'Spectral', serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Vollkorn', serif;

@@ -1,0 +1,35 @@
+/* https://codepen.io/niloydeysarkar/pen/MxZdeE */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;400&display=swap');
+.main{
+    /* width: 100%; */
+    background-color: #f0f0f0;
+}
+.mynav{
+	/* border-bottom-left-radius:50% 30%; */
+    /* border-bottom-right-radius:50% 30%; */
+    /*background-color: #f4a626;*/
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.36);
+    /*height: 150px;	*/
+    /* margin-top: 0; */
+    /*position: absolute;*/
+    /* width: 100%; */
+    background-color: #fff;
+}
+.mylink{
+    color: #474748 !important;
+    font-family: 'Source Serif Pro', serif;
+	/* font-family: 'Vollkorn', serif; */
+	font-weight: bold;
+	/* font-family: 'Spectral', serif; */
+	/* font-family: 'Titillium Web', sans-serif; */
+}
+.mylink:hover{
+    color: #fff !important;
+    background-color: #dc2127;
+    border-radius: 10px;
+}
+.mylink:active{
+    background-color: #dc2127;
+    border-radius: 10px;
+
+}

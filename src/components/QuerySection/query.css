@@ -1,0 +1,42 @@
+.the-fcontainer{
+    background-color: #474748;
+    height: auto;
+    position: relative;
+    display: flex;
+
+}
+.the-form{
+    width: 35%;
+    background-color: #fff;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+    margin: 20px 0px 20px 50px;
+}
+.query-text{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.button1{
+    background-color: #dc2127;
+    border: none;
+    font-weight: bold;
+}
+.button1:hover{
+    background-color: #fff;
+    border: 1px solid #f4a626;
+    color: #474748;
+
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="textarea"]:focus
+{
+    border-color: #f4f126;
+    box-shadow: 0 0 0 0.2rem rgba(242, 233, 116, 0.939);
+}
+::placeholder{
+    font-size: 10px;
+}
